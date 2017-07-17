@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CD00453E6BE9B81F44DB40 /* libPods-TestFlipCoinTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B77F31470ACBBE9FCFD85D /* libPods-TestFlipCoinTests.a */; };
+		5742BFF2A1D64BAA6764D34F /* libPods-TestFlipCoinUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C6A1EB6840DE0673AF3F23 /* libPods-TestFlipCoinUITests.a */; };
 		8BB29E7A1EAE0BFE00A9D364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29E791EAE0BFE00A9D364 /* main.m */; };
 		8BB29E7D1EAE0BFE00A9D364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29E7C1EAE0BFE00A9D364 /* AppDelegate.m */; };
 		8BB29E801EAE0BFF00A9D364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29E7F1EAE0BFF00A9D364 /* ViewController.m */; };
@@ -16,6 +18,8 @@
 		8BB29E8B1EAE0C0000A9D364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB29E891EAE0C0000A9D364 /* LaunchScreen.storyboard */; };
 		8BB29E961EAE0C0100A9D364 /* TestFlipCoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29E951EAE0C0100A9D364 /* TestFlipCoinTests.m */; };
 		8BB29EA11EAE0C0100A9D364 /* TestFlipCoinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29EA01EAE0C0100A9D364 /* TestFlipCoinUITests.m */; };
+		8BCAC33E1F15F2A9009752A0 /* FlipCoinStaticLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCAC33D1F15F2A9009752A0 /* FlipCoinStaticLib.framework */; };
+		9A13337A618DB91F743FA531 /* libPods-TestFlipCoin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8172DA3AC6ABF83306189A3E /* libPods-TestFlipCoin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8B50F8FF1EC0B6D300531040 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0BED920BD6E49111906676B5 /* Pods-TestFlipCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFlipCoinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFlipCoinUITests/Pods-TestFlipCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23706A5734CBFC56A2E804EC /* Pods-TestFlipCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFlipCoinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFlipCoinTests/Pods-TestFlipCoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E1C4717CC9A21D5BC3305A2 /* Pods-TestFlipCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFlipCoinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFlipCoinUITests/Pods-TestFlipCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8172DA3AC6ABF83306189A3E /* libPods-TestFlipCoin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestFlipCoin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CC128FE70CF303F44791E4 /* Pods-TestFlipCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFlipCoinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFlipCoinTests/Pods-TestFlipCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BB29E751EAE0BFE00A9D364 /* TestFlipCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFlipCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB29E791EAE0BFE00A9D364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BB29E7B1EAE0BFE00A9D364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +75,11 @@
 		8BB29E9C1EAE0C0100A9D364 /* TestFlipCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFlipCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB29EA01EAE0C0100A9D364 /* TestFlipCoinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFlipCoinUITests.m; sourceTree = "<group>"; };
 		8BB29EA21EAE0C0100A9D364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCAC33D1F15F2A9009752A0 /* FlipCoinStaticLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlipCoinStaticLib.framework; sourceTree = "<group>"; };
+		94C6A1EB6840DE0673AF3F23 /* libPods-TestFlipCoinUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestFlipCoinUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFC7AC8A8C8D61E373BDDC0 /* Pods-TestFlipCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFlipCoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFlipCoin/Pods-TestFlipCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		D93D797CA421024F6CAFED9E /* Pods-TestFlipCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFlipCoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFlipCoin/Pods-TestFlipCoin.release.xcconfig"; sourceTree = "<group>"; };
+		E7B77F31470ACBBE9FCFD85D /* libPods-TestFlipCoinTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestFlipCoinTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCAC33E1F15F2A9009752A0 /* FlipCoinStaticLib.framework in Frameworks */,
+				9A13337A618DB91F743FA531 /* libPods-TestFlipCoin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CD00453E6BE9B81F44DB40 /* libPods-TestFlipCoinTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +104,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5742BFF2A1D64BAA6764D34F /* libPods-TestFlipCoinUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06BB51C6928C55A8FAD4B475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8172DA3AC6ABF83306189A3E /* libPods-TestFlipCoin.a */,
+				E7B77F31470ACBBE9FCFD85D /* libPods-TestFlipCoinTests.a */,
+				94C6A1EB6840DE0673AF3F23 /* libPods-TestFlipCoinUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D0DC6875E6748F1F327FB08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC7AC8A8C8D61E373BDDC0 /* Pods-TestFlipCoin.debug.xcconfig */,
+				D93D797CA421024F6CAFED9E /* Pods-TestFlipCoin.release.xcconfig */,
+				82CC128FE70CF303F44791E4 /* Pods-TestFlipCoinTests.debug.xcconfig */,
+				23706A5734CBFC56A2E804EC /* Pods-TestFlipCoinTests.release.xcconfig */,
+				0BED920BD6E49111906676B5 /* Pods-TestFlipCoinUITests.debug.xcconfig */,
+				5E1C4717CC9A21D5BC3305A2 /* Pods-TestFlipCoinUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8BB29E6C1EAE0BFE00A9D364 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +141,8 @@
 				8BB29E941EAE0C0100A9D364 /* TestFlipCoinTests */,
 				8BB29E9F1EAE0C0100A9D364 /* TestFlipCoinUITests */,
 				8BB29E761EAE0BFE00A9D364 /* Products */,
+				4D0DC6875E6748F1F327FB08 /* Pods */,
+				06BB51C6928C55A8FAD4B475 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +159,7 @@
 		8BB29E771EAE0BFE00A9D364 /* TestFlipCoin */ = {
 			isa = PBXGroup;
 			children = (
+				8BCAC33D1F15F2A9009752A0 /* FlipCoinStaticLib.framework */,
 				8BB29E7B1EAE0BFE00A9D364 /* AppDelegate.h */,
 				8BB29E7C1EAE0BFE00A9D364 /* AppDelegate.m */,
 				8BB29E7E1EAE0BFE00A9D364 /* ViewController.h */,
@@ -150,9 +207,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BB29EA51EAE0C0100A9D364 /* Build configuration list for PBXNativeTarget "TestFlipCoin" */;
 			buildPhases = (
+				86145152AA38EA646DB12B76 /* [CP] Check Pods Manifest.lock */,
 				8BB29E711EAE0BFE00A9D364 /* Sources */,
 				8BB29E721EAE0BFE00A9D364 /* Frameworks */,
 				8BB29E731EAE0BFE00A9D364 /* Resources */,
+				8B50F8FF1EC0B6D300531040 /* Embed Frameworks */,
+				A7666573A863B1F49874930A /* [CP] Embed Pods Frameworks */,
+				F4568EFFEF46191E28470962 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BB29EA81EAE0C0100A9D364 /* Build configuration list for PBXNativeTarget "TestFlipCoinTests" */;
 			buildPhases = (
+				3DB25E9DF613CB9253D695FD /* [CP] Check Pods Manifest.lock */,
 				8BB29E8D1EAE0C0100A9D364 /* Sources */,
 				8BB29E8E1EAE0C0100A9D364 /* Frameworks */,
 				8BB29E8F1EAE0C0100A9D364 /* Resources */,
+				99AF98319478A30D75AC78E6 /* [CP] Embed Pods Frameworks */,
+				59556F2D745C1A499A3D0143 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BB29EAB1EAE0C0100A9D364 /* Build configuration list for PBXNativeTarget "TestFlipCoinUITests" */;
 			buildPhases = (
+				A40C87E97B173D9546B979AC /* [CP] Check Pods Manifest.lock */,
 				8BB29E981EAE0C0100A9D364 /* Sources */,
 				8BB29E991EAE0C0100A9D364 /* Frameworks */,
 				8BB29E9A1EAE0C0100A9D364 /* Resources */,
+				92F087541385A46194846646 /* [CP] Embed Pods Frameworks */,
+				44955429AC92A8FDE48C8F46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +277,7 @@
 				TargetAttributes = {
 					8BB29E741EAE0BFE00A9D364 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = J37MH8YKDY;
 						ProvisioningStyle = Automatic;
 					};
 					8BB29E901EAE0C0100A9D364 = {
@@ -270,6 +338,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DB25E9DF613CB9253D695FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44955429AC92A8FDE48C8F46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFlipCoinUITests/Pods-TestFlipCoinUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59556F2D745C1A499A3D0143 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFlipCoinTests/Pods-TestFlipCoinTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86145152AA38EA646DB12B76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92F087541385A46194846646 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFlipCoinUITests/Pods-TestFlipCoinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99AF98319478A30D75AC78E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFlipCoinTests/Pods-TestFlipCoinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A40C87E97B173D9546B979AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7666573A863B1F49874930A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFlipCoin/Pods-TestFlipCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4568EFFEF46191E28470962 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFlipCoin/Pods-TestFlipCoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BB29E711EAE0BFE00A9D364 /* Sources */ = {
@@ -375,7 +581,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -418,7 +624,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,28 +634,59 @@
 		};
 		8BB29EA61EAE0C0100A9D364 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFC7AC8A8C8D61E373BDDC0 /* Pods-TestFlipCoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = J37MH8YKDY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TestFlipCoin",
+				);
 				INFOPLIST_FILE = TestFlipCoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Biz4solutions.TestFlipCoin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TestFlipCoin",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Biz4solutions.TestFlipCoin1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		8BB29EA71EAE0C0100A9D364 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93D797CA421024F6CAFED9E /* Pods-TestFlipCoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = J37MH8YKDY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TestFlipCoin",
+				);
 				INFOPLIST_FILE = TestFlipCoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Biz4solutions.TestFlipCoin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TestFlipCoin",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Biz4solutions.TestFlipCoin1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		8BB29EA91EAE0C0100A9D364 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CC128FE70CF303F44791E4 /* Pods-TestFlipCoinTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestFlipCoinTests/Info.plist;
@@ -462,6 +699,7 @@
 		};
 		8BB29EAA1EAE0C0100A9D364 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23706A5734CBFC56A2E804EC /* Pods-TestFlipCoinTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestFlipCoinTests/Info.plist;
@@ -474,6 +712,7 @@
 		};
 		8BB29EAC1EAE0C0100A9D364 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BED920BD6E49111906676B5 /* Pods-TestFlipCoinUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestFlipCoinUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -485,6 +724,7 @@
 		};
 		8BB29EAD1EAE0C0100A9D364 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1C4717CC9A21D5BC3305A2 /* Pods-TestFlipCoinUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestFlipCoinUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -513,6 +753,7 @@
 				8BB29EA71EAE0C0100A9D364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BB29EA81EAE0C0100A9D364 /* Build configuration list for PBXNativeTarget "TestFlipCoinTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +762,7 @@
 				8BB29EAA1EAE0C0100A9D364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BB29EAB1EAE0C0100A9D364 /* Build configuration list for PBXNativeTarget "TestFlipCoinUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +771,7 @@
 				8BB29EAD1EAE0C0100A9D364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
