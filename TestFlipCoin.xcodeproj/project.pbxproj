@@ -278,7 +278,7 @@
 					8BB29E741EAE0BFE00A9D364 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = JJ45QREH65;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					8BB29E901EAE0C0100A9D364 = {
 						CreatedOnToolsVersion = 8.3;
@@ -653,8 +653,10 @@
 					"$(PROJECT_DIR)/TestFlipCoin",
 				);
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = Biz4solutions.TestFlipCoin1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquaphoenix.aliquot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1cda8139-56b7-48d9-829f-88e4371cfc03";
+				PROVISIONING_PROFILE_SPECIFIER = "Aliquot Development";
 			};
 			name = Debug;
 		};
@@ -664,7 +666,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = JJ45QREH65;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -679,7 +681,7 @@
 					"$(PROJECT_DIR)/TestFlipCoin",
 				);
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = Biz4solutions.TestFlipCoin1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquaphoenix.aliquot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
