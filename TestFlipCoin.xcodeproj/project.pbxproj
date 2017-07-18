@@ -637,7 +637,8 @@
 			baseConfigurationReference = CEFC7AC8A8C8D61E373BDDC0 /* Pods-TestFlipCoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Cramer (F2CL33HGQZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: George Cramer (F2CL33HGQZ)";
 				DEVELOPMENT_TEAM = JJ45QREH65;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -655,7 +656,7 @@
 				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquaphoenix.aliquot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1cda8139-56b7-48d9-829f-88e4371cfc03";
+				PROVISIONING_PROFILE = "1d62cead-c366-42a2-bbf8-451753e98be7";
 				PROVISIONING_PROFILE_SPECIFIER = "Aliquot Development";
 			};
 			name = Debug;
@@ -665,7 +666,8 @@
 			baseConfigurationReference = D93D797CA421024F6CAFED9E /* Pods-TestFlipCoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Cramer (F2CL33HGQZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: George Cramer (F2CL33HGQZ)";
 				DEVELOPMENT_TEAM = JJ45QREH65;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -683,7 +685,7 @@
 				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquaphoenix.aliquot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5cbd7360-651c-4d69-90f5-104e3c43691e";
+				PROVISIONING_PROFILE = "1d62cead-c366-42a2-bbf8-451753e98be7";
 				PROVISIONING_PROFILE_SPECIFIER = "Aliquot Development";
 			};
 			name = Release;
