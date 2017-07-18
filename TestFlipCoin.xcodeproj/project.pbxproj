@@ -658,6 +658,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1d62cead-c366-42a2-bbf8-451753e98be7";
 				PROVISIONING_PROFILE_SPECIFIER = "Aliquot Development";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -687,6 +688,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1d62cead-c366-42a2-bbf8-451753e98be7";
 				PROVISIONING_PROFILE_SPECIFIER = "Aliquot Development";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
