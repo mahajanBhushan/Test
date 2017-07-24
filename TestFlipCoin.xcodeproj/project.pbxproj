@@ -18,7 +18,6 @@
 		8BB29E8B1EAE0C0000A9D364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB29E891EAE0C0000A9D364 /* LaunchScreen.storyboard */; };
 		8BB29E961EAE0C0100A9D364 /* TestFlipCoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29E951EAE0C0100A9D364 /* TestFlipCoinTests.m */; };
 		8BB29EA11EAE0C0100A9D364 /* TestFlipCoinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29EA01EAE0C0100A9D364 /* TestFlipCoinUITests.m */; };
-		8BCAC33E1F15F2A9009752A0 /* FlipCoinStaticLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCAC33D1F15F2A9009752A0 /* FlipCoinStaticLib.framework */; };
 		9A13337A618DB91F743FA531 /* libPods-TestFlipCoin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8172DA3AC6ABF83306189A3E /* libPods-TestFlipCoin.a */; };
 /* End PBXBuildFile section */
 
@@ -75,7 +74,6 @@
 		8BB29E9C1EAE0C0100A9D364 /* TestFlipCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFlipCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB29EA01EAE0C0100A9D364 /* TestFlipCoinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFlipCoinUITests.m; sourceTree = "<group>"; };
 		8BB29EA21EAE0C0100A9D364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BCAC33D1F15F2A9009752A0 /* FlipCoinStaticLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlipCoinStaticLib.framework; sourceTree = "<group>"; };
 		94C6A1EB6840DE0673AF3F23 /* libPods-TestFlipCoinUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestFlipCoinUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFC7AC8A8C8D61E373BDDC0 /* Pods-TestFlipCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFlipCoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFlipCoin/Pods-TestFlipCoin.debug.xcconfig"; sourceTree = "<group>"; };
 		D93D797CA421024F6CAFED9E /* Pods-TestFlipCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFlipCoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFlipCoin/Pods-TestFlipCoin.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCAC33E1F15F2A9009752A0 /* FlipCoinStaticLib.framework in Frameworks */,
 				9A13337A618DB91F743FA531 /* libPods-TestFlipCoin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,7 +156,6 @@
 		8BB29E771EAE0BFE00A9D364 /* TestFlipCoin */ = {
 			isa = PBXGroup;
 			children = (
-				8BCAC33D1F15F2A9009752A0 /* FlipCoinStaticLib.framework */,
 				8BB29E7B1EAE0BFE00A9D364 /* AppDelegate.h */,
 				8BB29E7C1EAE0BFE00A9D364 /* AppDelegate.m */,
 				8BB29E7E1EAE0BFE00A9D364 /* ViewController.h */,

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <sys/utsname.h>
-#import <FlipCoinStaticLib/FlipCoinStaticLib.h>
+//#import <FlipCoinStaticLib/FlipCoinStaticLib.h>
 
 @interface AppDelegate ()
 
@@ -19,8 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    FlipCoinStaticLib *flipCoinStaticLib = [[FlipCoinStaticLib alloc] init];
-    [flipCoinStaticLib registerApp];
+   // FlipCoinStaticLib *flipCoinStaticLib = [[FlipCoinStaticLib alloc] init];
+   //  [flipCoinStaticLib registerApp];
     
     return YES;
 }
