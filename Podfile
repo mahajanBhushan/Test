@@ -7,7 +7,7 @@ target 'TestFlipCoin' do
   
   #  pod 'FlipCoin', git:'https://Flipcoin@bitbucket.org/Flipcoin/flipcoiniossdk.git'
 
-  #  pod 'AFNetworking', '~> 3.1'
+    pod 'AFNetworking', '~> 3.1'
 
   target 'TestFlipCoinTests' do
     inherit! :search_paths
