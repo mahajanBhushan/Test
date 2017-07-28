@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		18CD00453E6BE9B81F44DB40 /* libPods-TestFlipCoinTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B77F31470ACBBE9FCFD85D /* libPods-TestFlipCoinTests.a */; };
 		5742BFF2A1D64BAA6764D34F /* libPods-TestFlipCoinUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C6A1EB6840DE0673AF3F23 /* libPods-TestFlipCoinUITests.a */; };
-		84C66EED1F271FD600DD8E6A /* sdsdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C66EEC1F271FD600DD8E6A /* sdsdViewController.m */; };
 		8BB29E7A1EAE0BFE00A9D364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29E791EAE0BFE00A9D364 /* main.m */; };
 		8BB29E7D1EAE0BFE00A9D364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29E7C1EAE0BFE00A9D364 /* AppDelegate.m */; };
 		8BB29E801EAE0BFF00A9D364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29E7F1EAE0BFF00A9D364 /* ViewController.m */; };
@@ -58,8 +57,6 @@
 		5E1C4717CC9A21D5BC3305A2 /* Pods-TestFlipCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFlipCoinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFlipCoinUITests/Pods-TestFlipCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8172DA3AC6ABF83306189A3E /* libPods-TestFlipCoin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestFlipCoin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CC128FE70CF303F44791E4 /* Pods-TestFlipCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFlipCoinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFlipCoinTests/Pods-TestFlipCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
-		84C66EEB1F271FD600DD8E6A /* sdsdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdsdViewController.h; sourceTree = "<group>"; };
-		84C66EEC1F271FD600DD8E6A /* sdsdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdsdViewController.m; sourceTree = "<group>"; };
 		8BB29E751EAE0BFE00A9D364 /* TestFlipCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFlipCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB29E791EAE0BFE00A9D364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BB29E7B1EAE0BFE00A9D364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,8 +134,6 @@
 		8BB29E6C1EAE0BFE00A9D364 = {
 			isa = PBXGroup;
 			children = (
-				84C66EEB1F271FD600DD8E6A /* sdsdViewController.h */,
-				84C66EEC1F271FD600DD8E6A /* sdsdViewController.m */,
 				8BB29E771EAE0BFE00A9D364 /* TestFlipCoin */,
 				8BB29E941EAE0C0100A9D364 /* TestFlipCoinTests */,
 				8BB29E9F1EAE0C0100A9D364 /* TestFlipCoinUITests */,
@@ -278,7 +273,7 @@
 				TargetAttributes = {
 					8BB29E741EAE0BFE00A9D364 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = JJ45QREH65;
+						DevelopmentTeam = 4D2334SG86;
 						ProvisioningStyle = Manual;
 					};
 					8BB29E901EAE0C0100A9D364 = {
@@ -486,7 +481,6 @@
 				8BB29E801EAE0BFF00A9D364 /* ViewController.m in Sources */,
 				8BB29E861EAE0BFF00A9D364 /* TestFlipCoin.xcdatamodeld in Sources */,
 				8BB29E7D1EAE0BFE00A9D364 /* AppDelegate.m in Sources */,
-				84C66EED1F271FD600DD8E6A /* sdsdViewController.m in Sources */,
 				8BB29E7A1EAE0BFE00A9D364 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,8 +634,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: George Cramer (F2CL33HGQZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: George Cramer (F2CL33HGQZ)";
-				DEVELOPMENT_TEAM = JJ45QREH65;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 4D2334SG86;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -656,10 +650,10 @@
 					"$(PROJECT_DIR)/TestFlipCoin",
 				);
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aquaphoenix.aliquot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AquaPhonex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5cbd7360-651c-4d69-90f5-104e3c43691e";
-				PROVISIONING_PROFILE_SPECIFIER = "Aliquot Development";
+				PROVISIONING_PROFILE = "169c7bc3-4eca-416d-bf0b-9e99db677649";
+				PROVISIONING_PROFILE_SPECIFIER = "AquaPhonex AppStore";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -670,8 +664,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: George Cramer (F2CL33HGQZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: George Cramer (F2CL33HGQZ)";
-				DEVELOPMENT_TEAM = JJ45QREH65;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 4D2334SG86;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -686,10 +680,10 @@
 					"$(PROJECT_DIR)/TestFlipCoin",
 				);
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aquaphoenix.aliquot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AquaPhonex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1d62cead-c366-42a2-bbf8-451753e98be7";
-				PROVISIONING_PROFILE_SPECIFIER = "Aliquot Development";
+				PROVISIONING_PROFILE = "169c7bc3-4eca-416d-bf0b-9e99db677649";
+				PROVISIONING_PROFILE_SPECIFIER = "AquaPhonex AppStore";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
