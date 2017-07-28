@@ -558,7 +558,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -607,7 +607,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -633,8 +633,8 @@
 			baseConfigurationReference = CEFC7AC8A8C8D61E373BDDC0 /* Pods-TestFlipCoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: George Cramer (F2CL33HGQZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: B4Solutions LLC (4D2334SG86)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: B4Solutions LLC (4D2334SG86)";
 				DEVELOPMENT_TEAM = 4D2334SG86;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -652,7 +652,7 @@
 				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AquaPhonex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "169c7bc3-4eca-416d-bf0b-9e99db677649";
+				PROVISIONING_PROFILE = "724203c2-743c-4194-8333-ec512a4f241a";
 				PROVISIONING_PROFILE_SPECIFIER = "AquaPhonex AppStore";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -663,8 +663,8 @@
 			baseConfigurationReference = D93D797CA421024F6CAFED9E /* Pods-TestFlipCoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: George Cramer (F2CL33HGQZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: B4Solutions LLC (4D2334SG86)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: B4Solutions LLC (4D2334SG86)";
 				DEVELOPMENT_TEAM = 4D2334SG86;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -682,7 +682,7 @@
 				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AquaPhonex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "169c7bc3-4eca-416d-bf0b-9e99db677649";
+				PROVISIONING_PROFILE = "724203c2-743c-4194-8333-ec512a4f241a";
 				PROVISIONING_PROFILE_SPECIFIER = "AquaPhonex AppStore";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
