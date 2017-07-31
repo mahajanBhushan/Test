@@ -632,7 +632,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEFC7AC8A8C8D61E373BDDC0 /* Pods-TestFlipCoin.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: B4Solutions LLC (4D2334SG86)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: B4Solutions LLC (4D2334SG86)";
 				DEVELOPMENT_TEAM = 4D2334SG86;
@@ -662,7 +662,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D93D797CA421024F6CAFED9E /* Pods-TestFlipCoin.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: B4Solutions LLC (4D2334SG86)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: B4Solutions LLC (4D2334SG86)";
 				DEVELOPMENT_TEAM = 4D2334SG86;
